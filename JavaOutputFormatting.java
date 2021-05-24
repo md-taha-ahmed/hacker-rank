@@ -5,11 +5,13 @@ public class JavaOutputFormatting {
         int i;
         String[] s = new String[3];
         int[] x = new int[3];
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("================================");
         for (i = 0; i < 3; i++) {
-            s[i] = sc.next();
-            x[i] = sc.nextInt();        }
+            s[i] = scan.next();
+            x[i] = scan.nextInt();
+        }
+
         for (i = 0; i < 3; i++) {
             int length = 0;
             length = 15;
