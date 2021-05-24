@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JavaOutputFormatting {
+public class OutputFormatting {
     public static void main(String args[]) {
         int i;
         String[] s = new String[3];
