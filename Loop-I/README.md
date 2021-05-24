@@ -1,6 +1,6 @@
 # Loop I
 
- This program is use to print first 10 multiples of a given integer.
+ This program is use to print the first 10 multiples of a given integer.
 
 ## Screenshots:
 
