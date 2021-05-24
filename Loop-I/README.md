@@ -1,4 +1,4 @@
-# Data types
+# Loop I
 
  This program is use to print first 10 multiples of a given integer.
 
