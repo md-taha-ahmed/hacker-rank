@@ -15,7 +15,6 @@ public class OutputFormatting {
         for (i = 0; i < 3; i++) {
             int length = 0;
             length = 15;
-            System.out.println(length);
             System.out.printf("%-" + length + "s", s[i]);
             System.out.printf("%03d%n", x[i]);
         }
