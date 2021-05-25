@@ -13,6 +13,8 @@ public class Loop2 {
             double sum = 0;
             Double[] x = new Double[n];
             for (int j = 0; j < n; j++) {
+
+                // x[j-1]=(double) 0;
                 sum += (Math.pow(2, j) * b);
                 x[j] = a + sum;
             }
@@ -23,6 +25,7 @@ public class Loop2 {
                 System.out.print((int) Math.round(doubles) + " ");
             }
             System.out.println();
+
         }
         in.close();
     }
